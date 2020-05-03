@@ -1,0 +1,34 @@
+.page404{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+    background-image: url('../img/404img.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 80px;
+}
+
+.page404-btn{
+    background-image: linear-gradient(to right top, #b05bf3, #9070f7, #727ef5, #5b88ee, #5090e2);
+    border: none;
+    padding: 7px 25px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 1px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+.page404 p{
+    font-size: 35px;
+    margin-top: -50px;
+}
+

@@ -1,0 +1,136 @@
+.form-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+    max-height: 100vh;
+    overflow-y: hidden;
+    
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 460px;
+    width: 32%;
+    height: 500px;
+    margin: 10% 34%;
+    background-color: #fafafa;
+    border:1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.form input{
+    background-color: #fff;
+}
+
+.form-user-icon{
+    margin-top:-80px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #9070f7;
+    background-image: url('../img/user.png');
+    background-size: cover;
+    background-position: center;
+    border:1px solid rgb(234, 234, 234);
+}
+
+.form-user-icon-uploaded{
+    margin-top:-80px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #9070f7;
+    border:1px solid rgb(234, 234, 234);
+}
+
+.input-login{
+    width: 60%;
+    height: 35px;
+    border-radius: 3px;
+    border:1px solid rgb(234, 234, 234);
+    padding-left: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    color:#000;
+}
+
+.input-login::placeholder{
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.input-login:focus{
+    outline-color: #fff;
+}
+
+.login-btn{
+    /* background-image: linear-gradient(to right top, #d200f2, #df40ed, #e960ea, #f17ce8, #f696e7); */
+    background-image: linear-gradient(to right top, #b05bf3, #9070f7, #727ef5, #5b88ee, #5090e2);
+    padding: 7px 75px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 25px;
+}
+
+.login-btn:hover{
+    opacity: 0.7;
+}
+
+.login-btn:focus{
+    outline: none;
+}
+
+.form-container span a,.form-container span{
+    color: #727ef5;
+    cursor: pointer;
+}
+
+
+
+.form h2{
+    color:#727EF5;
+}
+
+.form p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.error-mess{
+    color: crimson!important;
+    margin:-9px 0px;
+}
+
+/*INPUT BTN*/
+.label-file {
+    cursor: pointer;
+    border:1px solid rgb(234, 234, 234);
+    padding: 10px 72px;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 3px;
+    
+}
+
+.label-file:hover {
+    background-color:rgb(95,95,95);
+}
+.input-file {
+    display: none;
+}

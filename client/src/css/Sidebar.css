@@ -1,0 +1,62 @@
+.act{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background-image: linear-gradient(to left top, #b05bf3, #9070f7, #727ef5, #5b88ee, #5090e2);
+    color:#fff;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.not-act{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background-color:#fff;
+    color:#000;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.fa-user-check,.fa-user-clock,.fa-users,.fa-credit-card,.fa-tasks,.fa-user-shield{
+    color: black;
+    margin-right: 10px;
+}
+
+.act .label{
+    margin-right: 10px;
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 27px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.act .fa-user-check,.act .fa-user-clock,.act .fa-users,.act .fa-credit-card,.act .fa-tasks,.act .fa-user-shield{
+    color: white;
+    margin-right: 10px;
+}
+
+.not-act .label{
+    margin-right: 10px;
+    background-image: linear-gradient(to left top, #b05bf3, #9070f7, #727ef5, #5b88ee, #4590e2);
+    color:#fff;
+    width: 40px;
+    height: 27px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sidebar-container ul{
+    background-color: rgb(255,255,255);
+}

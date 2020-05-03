@@ -1,0 +1,80 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    border-bottom:3px solid;
+    border-image: linear-gradient(45deg,#b05bf3,#5090e2) 1;
+}
+.nav-gauche{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-gauche h2{
+    color:#000;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 25px;
+}
+
+.navbar h2{
+    color: #fff;
+}
+
+.nav-droite button{
+    background-color: #000;
+    border: none;
+    padding: 10px 10px;
+    color:#727ef5;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 1px;
+    font-family: 'Comfortaa', cursive;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.add-member{
+    /* background-image: linear-gradient(to right top, #d200f2, #df40ed, #e960ea, #f17ce8, #f696e7); */
+    background-image: linear-gradient(to right top, #b05bf3, #9070f7, #727ef5, #5b88ee, #5090e2);
+    border: none;
+    padding: 7px 25px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 1px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+.nav-droite{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.username{
+    font-family: 'Comfortaa', cursive;
+    margin-right: 15px;
+    color:#fff;
+}
+
+.fa-sign-out-alt{
+    margin-right: 9px;
+    font-size: 20px;
+}
+
+.fa-user-plus{
+margin-right: 9px;
+color: white;
+}
