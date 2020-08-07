@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 
 function HomeZone() {
@@ -12,8 +13,8 @@ function HomeZone() {
                    <div className='animated-desc'>Une interface pour la gestion de votre association
                    </div>
                    <div className='btn-banner-zone'>
-                        <div className='first-home-btn'>Commencer</div>
-                        <div className='second-home-btn'>Découvrir</div>
+                        <Link to='/guide'><div className='first-home-btn'>Commencer</div></Link>
+                        <Link to='/fonctions' style={{color:"#666"}}><div className='second-home-btn'>Découvrir</div></Link>
                    </div>
                    
         

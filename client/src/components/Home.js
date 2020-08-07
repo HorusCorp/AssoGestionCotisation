@@ -24,7 +24,7 @@ function Home() {
            <div className='home-navbar'>
               <div className='navbar-container'>
                 <ul>
-                    <li>Accueil</li>
+                    <li><div className='small-logo'></div></li>
                     <Link to='/tarifs'><li>Tarifs</li></Link>
                     <Link to='/fonctions'><li>Fonctionnalités</li></Link>
                     <Link to='/guide'><li>Utilisation</li></Link>

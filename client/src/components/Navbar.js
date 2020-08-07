@@ -16,7 +16,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='nav-gauche'>
-                <h2>Athena.</h2>
+                <h2>AMETHYST.</h2>
             </div>
 
             <div className='nav-droite'>
